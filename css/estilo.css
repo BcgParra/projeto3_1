@@ -1,5 +1,73 @@
-body{
-    background-color: rgb(170, 177, 184);
-    font-family: 'Times New Roman', Times, serif;
-    
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+#meu_menu{/* abrindo id do menu */
+text-align: right;
+
+/* padding margem interna */
+padding-right: 80px ;
+/* colocando borda inferior */
+border-bottom: solid;
+/* tamanho da fonte do menu */
+font-size: 25px;
+/* mudando o tipo de fonte */
+font-family:'Open+Sans',sans-serif;
+background-color: #000000;
+height: 50px;
+
+
+}/* fechando id do menu */
+
+/* chamando a classe mãe */
+#meu_menu a {
+    text-decoration: none;
+    color: #fff;
 }
+/* colocando efeito de sobre no menu */
+#meu_menu a:hover{
+    color: #c06d6d;
+    background-color: rgba(18, 17, 17, 0.676);
+    transition: 1s;
+    opacity: 1;    
+}
+/* Trabalhando com a classe título */
+.titulo{
+    text-align: center;
+    background-color: rgba(117, 117, 123, 0.603);
+    /*border-style: double;*/
+    /*border-color: #000000;*/
+    /*border-radius: 10px;*/
+   /* border-width: 3px;*/
+}
+
+#fundo {
+    display: flex;    
+    justify-content: center;       
+}
+
+img{
+    width: 20%;   
+}
+/* Trabalhando com a div principal */
+.master{
+    display: flex;
+}
+
+.col_esquerda{
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+}
+
+.col_direita{
+    margin-right: 50px;
+    text-align: justify;
+}
+
+.titulo_col{
+    text-align: center;
+    background-color: #b9a5a5b3;
+    border-radius: 10px;
+}
+
+
+
+
